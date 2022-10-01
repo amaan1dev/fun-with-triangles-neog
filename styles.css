@@ -32,6 +32,7 @@ hr {
     margin: auto;
 }
 
+
 /** margin for project sections **/
  .margin-md{
     margin-bottom: 4rem;
@@ -158,6 +159,24 @@ hr {
     width: 20%;
     margin: auto;
     margin-top: 2rem;
+    border-radius: .3rem;
+}
+.off-white-isTriangle{
+    background-color: var(--off-white);
+    width: 40%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: .3rem;
+}
+
+.inputs-isTriangle{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    border-radius: .3rem;
+    
 }
     
 .off-white-quiz{
@@ -166,6 +185,7 @@ hr {
     margin: auto;
     margin-top: .5rem;
     margin-bottom: 5rem;
+    border-radius: .3rem;
 }
 
 
