@@ -176,8 +176,21 @@ hr {
     position: relative; bottom: 0; left: 0; right: 0;
         
 }
+.footer-home{
+    background-color: var(--primary-color);
+    padding: 1.5rem 1rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    text-align: center;
+    color: white;
+    position: absolute; bottom: 0; left: 0; right: 0;
+        
+}
 
 .footer .link{
+    color: white;
+}
+.footer-home .link{
     color: white;
 }
 
@@ -185,6 +198,12 @@ hr {
     font-weight: bold;
     font-size: large;
 }
+.footer-home .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+
 
 .footer ul{
     padding-inline-start: 0px;
