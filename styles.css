@@ -57,6 +57,12 @@ hr {
     border-radius: 0.5rem;
     color: white;
 }
+.link-primary-submit {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    border: none;
+}
 
 .link-secondary {
     color: var(--primary-color);
