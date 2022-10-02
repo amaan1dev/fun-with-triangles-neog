@@ -1,6 +1,6 @@
 A ReactJS App to do the following:
 
-Calculate Area of a Triangle.
+Calculate Area of a Triangle.<br>
 To Find the Hypotenuse of a right Triangle.
 To find third angle if two angles are given.
 A quiz which show your score on submit
