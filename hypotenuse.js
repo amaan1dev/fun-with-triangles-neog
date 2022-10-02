@@ -9,13 +9,21 @@ function calculateSumOfSquares(a, b){
 }
 
 function calculateHypo(){
-    
-   const sumOfSquares = calculateSumOfSquares(Number(inputs[0].value), Number(inputs[1].value));
 
-   const hypotenuseLength = Math.sqrt(sumOfSquares);
+   if(inputs[0].value == "" || inputs[1].value == "" || inputs[0].value <= 0 || inputs[1].value <= 0){
+      output.innerText = "Please check your input values";
+   }
+   else{
 
-   output.innerText = "The length of the Hypotenuse is " + hypotenuseLength;
+      const sumOfSquares = calculateSumOfSquares(Number(inputs[0].value), Number(inputs[1].value));
    
-}
-
-calculateBtn.addEventListener("click", calculateHypo)
+      const hypotenuseLength = Math.sqrt(sumOfSquares).toFixed(2);
+   
+      output.innerText = "The length of the Hypotenuse is " + hypotenuseLength;
+   }
+      
+   }
+   
+   calculateBtn.addEventListener("click", calculateHypo)
+   
+    

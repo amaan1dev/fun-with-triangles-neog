@@ -15,12 +15,6 @@ body {
 
 }
 
-/** hr **/
-
-hr {
-    margin: 2rem 0rem 2rem 0rem;
-}
-
 
 /** container **/
 .container {
@@ -57,6 +51,13 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+}
+.link-primary-home {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 1rem;
 }
 .link-primary-submit {
     background-color: var(--primary-color);
@@ -128,11 +129,6 @@ hr {
     padding-top: 2rem;
 }
 
-.hero .hero-img {
-    max-width: 350px;
-    display: block;
-    margin: auto;
-}
 
 .hero .hero-heading {
     /* padding-top: 1rem; */
@@ -143,6 +139,7 @@ hr {
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
+
 
 /** sections **/
 
@@ -165,7 +162,6 @@ hr {
     background-color: var(--off-white);
     width: 40%;
     margin: auto;
-    margin-top: 2rem;
     border-radius: .3rem;
     
 }

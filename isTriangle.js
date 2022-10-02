@@ -10,6 +10,9 @@ function calculateSumOfAngles(){
   if(sumOfAngles === 180){
     outPut.innerText = "Yay it is forms a triangle"
   }
+  else if(angle1.value == "" || angle2.value == "" || angle3.value == ""){
+    outPut.innerText = "Please input values in empty fields"
+  }
   else{
     outPut.innerText = "No it does not form a triangle"
   }
