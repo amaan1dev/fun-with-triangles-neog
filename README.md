@@ -1,4 +1,4 @@
-A ReactJS App to do the following H1:<br>
+A ReactJS App to do the following:<br>
 
 Calculate Area of a Triangle.<br>
 To Find the Hypotenuse of a right Triangle.<br>
